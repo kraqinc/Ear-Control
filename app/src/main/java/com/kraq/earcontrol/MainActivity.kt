@@ -123,7 +123,7 @@ fun EarControlApp(context: Context) {
     var volume by remember { mutableFloatStateOf(0.68f) }
     var balance by remember { mutableFloatStateOf(0f) }
     var refreshKey by remember { mutableIntStateOf(0) }
-
+    var spatialState by remember { mutableStateOf(SpatialAudioState(aviable = false, enabled = false, headTraclerAviable =false)){
     LaunchedEffect(refreshKey) {
         earbud = readPairedBluetooth(context)
     }
@@ -157,7 +157,8 @@ fun EarControlApp(context: Context) {
 
                 BalanceCard(balance = balance, onBalance = { balance = it })
                 Spacer(Modifier.height(14.dp))
-
+		SpatialAudioCard(spatialState = spatialState, balance = balance)
+		Spacer(Modifier.height(14.dp))
                 SmallActionRow()
             }
         }
