@@ -2,77 +2,74 @@ EarControl 🎧
 
 <div align="center"><img src="images/icon.png" alt="EarControl" width="150"/>A modern Android companion for your wireless earbuds.
 
-""Kotlin" (https://img.shields.io/badge/Kotlin-100%25-purple?style=for-the-badge&logo=kotlin)" (https://kotlinlang.org/)
-""Jetpack Compose" (https://img.shields.io/badge/Jetpack%20Compose-Material%203-blue?style=for-the-badge&logo=jetpackcompose)" (https://developer.android.com/jetpack/compose)
-""Android" (https://img.shields.io/badge/Android-API%2026%2B-green?style=for-the-badge&logo=android)" (https://www.android.com/)
-""Status" (https://img.shields.io/badge/Status-In%20Development-orange?style=for-the-badge)"
+Your earbuds. Your control.
 
 </div>---
 
 ✨ Overview
 
-EarControl is a modern Android app built to make controlling and interacting with wireless earbuds simpler and faster.
+EarControl is a modern Android application designed to make interacting with wireless earbuds simpler, faster, and more intuitive.
 
-It brings together earbud status, quick actions, Find My Earbuds, notifications, and a Dynamic Island-inspired interface in one experience.
-
-«🎧 Your earbuds. Your control.»
+It brings together earbud status, quick actions, Find My Earbuds, notifications, and a Dynamic Island-inspired interface into one experience.
 
 ---
 
 🚀 Features
 
-- 🎧 Find My Earbuds
-- 🏝️ Dynamic Island
-- 🔔 Earbud notifications
-- ⚡ Quick controls
-- ⚙️ Custom settings
-- 🔐 Permission-aware features
-- 🎨 Modern Material 3 interface
-- 📱 Jetpack Compose UI
+- 🎧 Find My Earbuds — tools to help locate your earbuds.
+- 🏝️ Dynamic Island — compact floating earbud information and controls.
+- 🔔 Earbud Notifications — useful information when your earbuds are connected.
+- ⚡ Quick Controls — fast access to important actions.
+- ⚙️ Settings — configure EarControl features.
+- 🔐 Permission-Aware — permissions are requested when required.
+- 🎨 Material 3 UI — modern Android interface.
+- 📱 Jetpack Compose — fully built with modern Android UI technologies.
 
 ---
-
-🖼️ Screenshots
-
-<div align="center"><img src="images/screenshot-home.png" alt="EarControl Home" width="260"/>
-<img src="images/screenshot-island.png" alt="Dynamic Island" width="260"/>
-<img src="images/screenshot-settings.png" alt="EarControl Settings" width="260"/></div>---
 
 🛠️ Built With
 
-Kotlin · Jetpack Compose · Material 3 · Android SDK · Gradle
+- Kotlin
+- Jetpack Compose
+- Material 3
+- Android SDK
+- Gradle
 
 ---
 
-📂 Structure
+📂 Project Structure
 
 EarControl/
 ├── .github/
+│   └── workflows/
 ├── app/
-├── images/
-│   ├── icon.png
-│   ├── screenshot-home.png
-│   ├── screenshot-island.png
-│   └── screenshot-settings.png
 ├── gradle/
+│   └── wrapper/
+├── images/
+│   └── icon.png
+├── .gitignore
 ├── build.gradle.kts
-├── settings.gradle.kts
-└── README.md
+├── gradle.properties
+├── gradlew
+├── gradlew.bat
+├── README.md
+└── settings.gradle.kts
 
 ---
 
 🗺️ Roadmap
 
-- [x] Initial project
-- [x] Modern Compose interface
+- [x] Initial Android project
+- [x] Jetpack Compose interface
 - [ ] Find My Earbuds
 - [ ] Dynamic Island
-- [ ] Earbud detection
+- [ ] Earbud connection detection
 - [ ] Quick controls
 - [ ] Notification integration
 - [ ] Advanced settings
-- [ ] Device compatibility improvements
-- [ ] Performance optimization
+- [ ] Support for more devices
+- [ ] Performance improvements
+- [ ] First stable release
 
 ---
 
@@ -80,30 +77,37 @@ EarControl/
 
 Contributions, ideas, and bug reports are welcome.
 
-Open an issue or submit a pull request to help improve EarControl.
+If you find a problem or have an idea for EarControl, feel free to open an issue or submit a pull request.
 
 ---
 
 🐛 Bug Reports
 
-When reporting an issue, include your:
+When reporting a bug, please include:
 
-Device · Android version · Steps to reproduce · Logs/screenshots
+- Device model
+- Android version
+- Steps to reproduce the issue
+- Relevant logs
+- Screenshots, if applicable
 
 ---
 
 🔒 Privacy
 
-EarControl is designed to request permissions only when they are required for a specific feature.
+EarControl is designed to request only the permissions required for its features.
 
 ---
 
 📄 License
 
-See the repository license for licensing information.
+See the repository's license file for licensing information.
 
 ---
 
-<div align="center"><img src="images/icon.png" alt="EarControl" width="55"/>EarControl — Your earbuds. Your control. 🎧
+<div align="center"><img src="images/icon.png" alt="EarControl" width="55"/>EarControl 🎧
 
+Your earbuds. Your control.
+
+</div>
 </div>
