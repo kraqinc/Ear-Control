@@ -1,27 +1,109 @@
-# EarControl
+EarControl 🎧
 
-A clean Android control center for Bluetooth earbuds.
+<div align="center"><img src="images/icon.png" alt="EarControl" width="150"/>A modern Android companion for your wireless earbuds.
 
-## Included
-- Apple-inspired Compose UI.
-- Left / Right / Case battery cards (real values when Android/device exposes them; safe demo fallback otherwise).
-- System media volume control.
-- Left/right balance control in the UI.
-- Bluetooth permission flow and paired-device discovery.
-- GitHub Actions workflow that builds a debug APK.
-- Architecture placeholder for deeper vendor/root integrations without making root mandatory.
+""Kotlin" (https://img.shields.io/badge/Kotlin-100%25-purple?style=for-the-badge&logo=kotlin)" (https://kotlinlang.org/)
+""Jetpack Compose" (https://img.shields.io/badge/Jetpack%20Compose-Material%203-blue?style=for-the-badge&logo=jetpackcompose)" (https://developer.android.com/jetpack/compose)
+""Android" (https://img.shields.io/badge/Android-API%2026%2B-green?style=for-the-badge&logo=android)" (https://www.android.com/)
+""Status" (https://img.shields.io/badge/Status-In%20Development-orange?style=for-the-badge)"
 
-## Important battery note
-Android's Bluetooth stack can report a device battery level, but per-earbud and charging-case values are not uniformly exposed to third-party apps. Vendor support varies. This project keeps the UI ready for L/R/case providers and does not fake a claim of universal support.
+</div>---
 
-## Klavika Bold
-Klavika is not bundled because it is a proprietary typeface. Put your licensed `klavika_bold.ttf` in `app/src/main/res/font/` and wire `FontFamily(Font(R.font.klavika_bold))` in `MainActivity.kt`.
+✨ Overview
 
-## Build
+EarControl is a modern Android app built to make controlling and interacting with wireless earbuds simpler and faster.
 
-```bash
-./gradlew :app:assembleDebug
-```
+It brings together earbud status, quick actions, Find My Earbuds, notifications, and a Dynamic Island-inspired interface in one experience.
 
-APK output:
-`app/build/outputs/apk/debug/app-debug.apk`
+«🎧 Your earbuds. Your control.»
+
+---
+
+🚀 Features
+
+- 🎧 Find My Earbuds
+- 🏝️ Dynamic Island
+- 🔔 Earbud notifications
+- ⚡ Quick controls
+- ⚙️ Custom settings
+- 🔐 Permission-aware features
+- 🎨 Modern Material 3 interface
+- 📱 Jetpack Compose UI
+
+---
+
+🖼️ Screenshots
+
+<div align="center"><img src="images/screenshot-home.png" alt="EarControl Home" width="260"/>
+<img src="images/screenshot-island.png" alt="Dynamic Island" width="260"/>
+<img src="images/screenshot-settings.png" alt="EarControl Settings" width="260"/></div>---
+
+🛠️ Built With
+
+Kotlin · Jetpack Compose · Material 3 · Android SDK · Gradle
+
+---
+
+📂 Structure
+
+EarControl/
+├── .github/
+├── app/
+├── images/
+│   ├── icon.png
+│   ├── screenshot-home.png
+│   ├── screenshot-island.png
+│   └── screenshot-settings.png
+├── gradle/
+├── build.gradle.kts
+├── settings.gradle.kts
+└── README.md
+
+---
+
+🗺️ Roadmap
+
+- [x] Initial project
+- [x] Modern Compose interface
+- [ ] Find My Earbuds
+- [ ] Dynamic Island
+- [ ] Earbud detection
+- [ ] Quick controls
+- [ ] Notification integration
+- [ ] Advanced settings
+- [ ] Device compatibility improvements
+- [ ] Performance optimization
+
+---
+
+🤝 Contributing
+
+Contributions, ideas, and bug reports are welcome.
+
+Open an issue or submit a pull request to help improve EarControl.
+
+---
+
+🐛 Bug Reports
+
+When reporting an issue, include your:
+
+Device · Android version · Steps to reproduce · Logs/screenshots
+
+---
+
+🔒 Privacy
+
+EarControl is designed to request permissions only when they are required for a specific feature.
+
+---
+
+📄 License
+
+See the repository license for licensing information.
+
+---
+
+<div align="center"><img src="images/icon.png" alt="EarControl" width="55"/>EarControl — Your earbuds. Your control. 🎧
+
+</div>
