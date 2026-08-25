@@ -85,11 +85,6 @@ data class EarbudState(
     val connected: Boolean,
 )
 
-data class SpatialAudioState(
-    val available: Boolean,
-    val enabled: Boolean,
-    val headTrackerAvailable: Boolean,
-)
 
 @SuppressLint("MissingPermission")
 private fun readPairedBluetooth(context: Context): EarbudState? {
