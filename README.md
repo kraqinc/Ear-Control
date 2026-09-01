@@ -91,35 +91,44 @@ EarControl/
 
 <div align="center">
 
+<div align="center">
+
 # 🏢 CONTRIBUIDORES
 
 <br>
+
+<table>
+<tr>
+<td align="center" width="50%">
+
+<a href="https://github.com/kraqinc">
+  <img src="https://github.com/kraqinc.png" width="140" style="border-radius:50%;" alt="KRAQINC"/>
+</a>
 
 # 🚀 KRAQINC
 
 ### *Desarrollo y arquitectura del proyecto*
 
-<br>
+</td>
+<td align="center" width="50%">
+
+<a href="https://github.com/trivoren">
+  <img src="https://github.com/trivoren.png" width="140" style="border-radius:50%;" alt="TRIVOREN"/>
+</a>
 
 # 🎯 TRIVOREN
 
 ### *Colaboración y soporte al proyecto*
+
+</td>
+</tr>
+</table>
 
 <br>
 
 ## 🙌 ¡GRACIAS POR IMPULSAR EARCONTROL! 🙌
 
 </div>
-
----
-
-## 🤝 Contribuir
-
-¡Las contribuciones, ideas y reportes de errores son bienvenidos!
-
-Si encuentras un problema o tienes una idea para EarControl, no dudes en abrir un **issue** o enviar un **pull request**.
-
----
 
 ## 🐛 Reporte de Errores
 
