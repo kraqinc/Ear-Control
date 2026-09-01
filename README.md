@@ -1,52 +1,67 @@
-EarControl 🎧
+<div align="center">
 
-<div align="center"><img src="images/icon.png" alt="EarControl" width="150"/>A modern Android companion for your wireless earbuds.
+<img src="images/icon.png" alt="EarControl" width="180"/>
 
-Your earbuds. Your control.
+# 🎧 EarControl
 
-</div>---
+### **Un compañero moderno para Android hecho para tus audífonos inalámbricos**
 
-✨ Overview
+### *✨ Tus audífonos. Tu control. ✨*
 
-EarControl is a modern Android application designed to make interacting with wireless earbuds simpler, faster, and more intuitive.
+<br>
 
-It brings together earbud status, quick actions, Find My Earbuds, notifications, and a Dynamic Island-inspired interface into one experience.
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
+![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white)
+![Material3](https://img.shields.io/badge/Material%203-757575?style=for-the-badge&logo=materialdesign&logoColor=white)
+![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
 
----
-
-🚀 Features
-
-- 🎧 Find My Earbuds — tools to help locate your earbuds.
-- 🏝️ Dynamic Island — compact floating earbud information and controls.
-- 🔔 Earbud Notifications — useful information when your earbuds are connected.
-- ⚡ Quick Controls — fast access to important actions.
-- ⚙️ Settings — configure EarControl features.
-- 🔐 Permission-Aware — permissions are requested when required.
-- 🎨 Material 3 UI — modern Android interface.
-- 📱 Jetpack Compose — fully built with modern Android UI technologies.
+</div>
 
 ---
 
-🛠️ Built With
+## ✨ Descripción General
 
-- Kotlin
-- Jetpack Compose
-- Material 3
-- Android SDK
-- Gradle
+**EarControl** es una aplicación moderna para Android diseñada para hacer que la interacción con tus audífonos inalámbricos sea más simple, rápida e intuitiva.
+
+Reúne en una sola experiencia el estado de los audífonos, acciones rápidas, **Find My Earbuds**, notificaciones y una interfaz inspirada en la Dynamic Island.
 
 ---
 
-📂 Project Structure
+## 🚀 Funcionalidades
+
+| Función | Descripción |
+|---|---|
+| 🎧 **Find My Earbuds** | Herramientas para ayudarte a localizar tus audífonos. |
+| 🏝️ **Dynamic Island** | Información y controles flotantes compactos. |
+| 🔔 **Notificaciones** | Información útil cuando tus audífonos están conectados. |
+| ⚡ **Controles Rápidos** | Acceso rápido a las acciones más importantes. |
+| ⚙️ **Configuración** | Personaliza las funciones de EarControl. |
+| 🔐 **Permission-Aware** | Los permisos se solicitan solo cuando son necesarios. |
+| 🎨 **Material 3 UI** | Interfaz moderna para Android. |
+| 📱 **Jetpack Compose** | Construida totalmente con tecnología moderna de UI. |
+
+---
+
+## 🛠️ Construido Con
+
+- **Kotlin**
+- **Jetpack Compose**
+- **Material 3**
+- **Android SDK**
+- **Gradle**
+
+---
+
+## 📂 Estructura del Proyecto
 
 EarControl/
 ├── .github/
-│   └── workflows/
+│ └── workflows/
 ├── app/
 ├── gradle/
-│   └── wrapper/
+│ └── wrapper/
 ├── images/
-│   └── icon.png
+│ └── icon.png
 ├── .gitignore
 ├── build.gradle.kts
 ├── gradle.properties
@@ -55,59 +70,86 @@ EarControl/
 ├── README.md
 └── settings.gradle.kts
 
+
 ---
 
-🗺️ Roadmap
+## 🗺️ Roadmap
 
-- [x] Initial Android project
-- [x] Jetpack Compose interface
+- [x] Proyecto inicial en Android
+- [x] Interfaz con Jetpack Compose
 - [ ] Find My Earbuds
 - [ ] Dynamic Island
-- [ ] Earbud connection detection
-- [ ] Quick controls
-- [ ] Notification integration
-- [ ] Advanced settings
-- [ ] Support for more devices
-- [ ] Performance improvements
-- [ ] First stable release
+- [ ] Detección de conexión de audífonos
+- [ ] Controles rápidos
+- [ ] Integración de notificaciones
+- [ ] Configuración avanzada
+- [ ] Soporte para más dispositivos
+- [ ] Mejoras de rendimiento
+- [ ] Primera versión estable
 
 ---
 
-🤝 Contributing
+<div align="center">
 
-Contributions, ideas, and bug reports are welcome.
+# 🏢 CONTRIBUIDORES
 
-If you find a problem or have an idea for EarControl, feel free to open an issue or submit a pull request.
+<br>
 
----
+# 🚀 KRAQINC
 
-🐛 Bug Reports
+### *Desarrollo y arquitectura del proyecto*
 
-When reporting a bug, please include:
+<br>
 
-- Device model
-- Android version
-- Steps to reproduce the issue
-- Relevant logs
-- Screenshots, if applicable
+# 🎯 TRIVOREN
 
----
+### *Colaboración y soporte al proyecto*
 
-🔒 Privacy
+<br>
 
-EarControl is designed to request only the permissions required for its features.
-
----
-
-📄 License
-
-See the repository's license file for licensing information.
-
----
-
-<div align="center"><img src="images/icon.png" alt="EarControl" width="55"/>EarControl 🎧
-
-Your earbuds. Your control.
+## 🙌 ¡GRACIAS POR IMPULSAR EARCONTROL! 🙌
 
 </div>
+
+---
+
+## 🤝 Contribuir
+
+¡Las contribuciones, ideas y reportes de errores son bienvenidos!
+
+Si encuentras un problema o tienes una idea para EarControl, no dudes en abrir un **issue** o enviar un **pull request**.
+
+---
+
+## 🐛 Reporte de Errores
+
+Al reportar un error, por favor incluye:
+
+- 📱 Modelo del dispositivo
+- 🤖 Versión de Android
+- 📝 Pasos para reproducir el problema
+- 📄 Logs relevantes
+- 🖼️ Capturas de pantalla, si aplica
+
+---
+
+## 🔒 Privacidad
+
+EarControl está diseñado para solicitar únicamente los permisos necesarios para sus funciones.
+
+---
+
+## 📄 Licencia
+
+Consulta el archivo de licencia del repositorio para más información.
+
+---
+
+<div align="center">
+
+<img src="images/icon.png" alt="EarControl" width="60"/>
+
+# EarControl 🎧
+### *Tus audífonos. Tu control.*
+
 </div>
